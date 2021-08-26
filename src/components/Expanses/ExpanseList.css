@@ -1,0 +1,9 @@
+.expanse-list{
+    list-style: none;
+    padding: 0;
+}
+
+.list-empty{
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+.expanse-date{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(51, 48, 48);
+    padding: 3% 3%;
+    border-radius: 20px;
+    border: 1.5px solid white;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+}
+.expanse-date_day , .expanse-date_month , .expanse-date_year{
+    text-align: center;
+    font-weight: bold;
+}
+.expanse-date_day{
+    font-size: 2rem;
+}

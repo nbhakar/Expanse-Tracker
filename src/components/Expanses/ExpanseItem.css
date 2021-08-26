@@ -1,0 +1,52 @@
+.expanse-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  background-color: #4b4b4b;
+}
+
+.expanse-item-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.expanse-item-date, .expanse-item-title {
+  font-size: 1.5rem;
+  margin: 0 5px;
+  font-weight: bold;
+}
+.expanse-item-title {
+  color: white;
+}
+.expanse-item-expanse {
+  color: white;
+  margin: 10px;
+  background-color: rgb(143, 69, 143);
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid white;
+  font-weight: bold;
+}
+
+@media (max-width: 510px) {
+    .expanse-item{
+        flex-direction: column;
+    }
+    .expanse-item-info{
+        flex-direction: column;
+    }
+    .expanse-item-date, .expanse-item-title {
+        font-size: 1rem;
+        margin: 0 5px;
+        font-weight: normal;
+      }
+      .expanse-item-expanse {
+        font-size: 1rem;
+        font-weight: normal;
+        padding: 5px;
+      }
+    
+}
